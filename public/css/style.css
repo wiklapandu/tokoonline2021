@@ -1,0 +1,38 @@
+::selection{
+    background-color: black; color: white;
+}
+.btn-success, .bg-success{
+    background-color: #21956C;
+}
+.bg-cram{
+    background-color: #FEF9F3;
+}
+.bg-white{
+    background-color: white;
+}
+@media (min-width: 992px){
+    .nav-item.label{
+        display: flex; flex-direction: column-reverse;
+        position: relative; align-items: center;
+    }
+    .nav-item.label::before{
+        content: "";
+        width: 80%; background-color: salmon;
+        height: 3px; border-radius: 2px;
+        position: absolute;
+    }
+}
+.salmon{
+    color: rgb(250, 128, 114);
+}
+.btn-salmon{
+    color: white;
+    background-color: salmon;
+}
+.btn-salmon:hover{
+    color: white;
+    background-color: hsl(6, 73%, 64%);
+}
+.fw-500{
+    font-weight: 500;
+}
